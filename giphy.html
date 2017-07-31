@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="utf-8">
+	<title>GifTastic Sitcoms</title>
+	<style type="text/css">
+    button,
+    div,
+    form,
+    input {
+      margin: 10px;
+    }
+  </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <script type="text/javascript" src="assets/javascript/gifs.js"></script>
+
+</head>
+<body>
+
+	<div class=container>
+  
+    <h1>Best 90's Sitcoms</h1>
+        
+    <!-- rendered buttons will appear here -->
+    <div id="buttons-view"></div>
+
+    <!-- Gifs will get dumped here -->
+    <div id="gifs-view"></div>
+    <br>
+    <form id="gif-form">
+
+      <label for="gif-input">What's Your Favorite 90's Sitcom?</label>
+      <input type="text" id="gif-input">
+      <br>
+      <br>
+      <!-- Button triggers new sitcom to be added -->
+      <input id="add-gif" type="submit" value="Submit">
+    </form>
+    
+    <button data-sitcom="The Cosby Show">The Cosby Show</button>
+    <button data-sitcom="A Different World">A Different World</button>
+    <button data-sitcom="The Fresh Prince of Bel-Air">The Fresh Prince of Bel-Air</button>
+    <button data-sitcom="Living Single">Living Single</button>
+    <button data-sitcom="Family Matters">Family Matters</button>
+    <button data-sitcom="In Living Color">In Living Color</button>
+    <button data-sitcom="Sister, Sister">Sister, Sister</button>
+    <button data-sitcom="Moesha">Moesha</button>
+    <button data-sitcom="The Parkers">The Parkers</button>
+    <button data-sitcom="Martin">Martin</button>
+
+    <div id="gifs-appear-here"></div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script type="text/javascript"></script>
+
+
+</body>
+</html>
